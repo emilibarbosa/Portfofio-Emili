@@ -1,0 +1,118 @@
+#sobre {
+    
+    padding: 10px 25px; /* Mantém o espaçamento do container geral */
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 0 1px 30px rgb(153, 153, 153); 
+    background-color: #fcfbff4c; 
+    border-radius: 5px; 
+}
+
+.sobre-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: -50px; /* Mantém o espaçamento interno */
+}
+
+.profile-pic {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #b6b0b0;
+}
+
+.sobre-content p {
+    max-width: 500px;
+    line-height: 1.3;
+    font-size: 1em;
+    color: #010101;
+    text-align: center;
+}
+
+/* Navegação */
+.nav-links {
+    list-style: none;
+    padding: 5;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links li {
+    margin: 0 30px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    padding: 10px 15px;
+    font-size: 1.2em;
+    border-radius: 50px;
+    background-color: rgb(251, 247, 241);
+    box-shadow: 0 4px 10px rgba(70, 149, 178, 0.778); 
+}
+
+.nav-links li a:hover {
+    color: #fff;
+    background-color: #324b5d;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4); 
+}
+
+.welcome-text {
+    font-family: 'Times Woman', serif;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-bottom: 1px;
+    text-align: center;
+    color: #010101;
+    position: relative; 
+    background-color: rgba(255, 255, 255, 0); 
+    backdrop-filter: blur(80px); 
+}
+
+.info-box {
+    background-color: #f8f8f8;
+    border: 1px solid #69dcff5a;
+    border-radius: 25px;
+    padding: 5px;
+    margin: -50px auto 55px auto; /* Adiciona um margin-top negativo */
+    max-width: 500px;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+
+.info-box:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+}
+
+/* Ajustes para o componente de contato */
+.contato-links {
+    display: flex;
+    justify-content: center;
+    gap: 8px; /* Diminui ainda mais o espaçamento entre os ícones */
+    margin-top: -50px; /* Ajusta o espaçamento acima */
+    margin-bottom: 1px; /* Mantém o espaçamento abaixo */
+}
+
+.contato-item {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.contato-item img {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}

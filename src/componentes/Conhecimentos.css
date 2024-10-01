@@ -1,0 +1,60 @@
+#conhecimentos {
+  padding: 200px 10px; /* Espaço adicional para separação */
+  max-width: 1200px;
+  margin: 20px auto; /* Margem inferior para separar do rodapé ou próxima seção */
+  text-align: center;
+  background-image: url('../assets/imagem8.png'); /* Definindo a imagem de fundo */
+  background-size: cover; /* Ajusta o tamanho da imagem para cobrir toda a área */
+  background-position: center; /* Centraliza a imagem de fundo */
+  background-repeat: no-repeat; /* Não repete a imagem */
+  border-radius: 10px; /* Cantos arredondados */
+
+}
+
+.carrossel-container {
+  position: relative;
+  display: flex; /* Alinhamento flexível */
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  align-items: center;
+}
+
+.carrossel {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 10px 0; /* Ajuste a altura do padding */
+  gap: 35px; /* Espaço entre os itens */
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.carrossel::-webkit-scrollbar {
+  display: none; /* Remove a barra de rolagem */
+}
+
+.habilidades-list {
+  display: flex; /* Mantém flexível para os itens */
+  flex-wrap: wrap; /* Permite que os itens quebrem em várias linhas se necessário */
+  justify-content: center; /* Centraliza os itens dentro da lista */
+  gap: 20px; /* Ajuste o espaçamento entre os itens */
+}
+
+.habilidade-item {
+  min-width: 90px; /* Ajuste a largura mínima para melhor visualização */
+  text-align: center; /* Centraliza o texto dentro do item */
+  display: flex; /* Adicione flex para o alinhamento */
+  flex-direction: column; /* Alinha o conteúdo em coluna */
+  align-items: center; /* Centraliza horizontalmente */
+}
+
+.habilidade-icon {
+  max-width: 50px;
+  height: auto;
+}
+
+.habilidade-nome {
+  margin-top: 10px; /* Espaço entre ícone e nome */
+  font-size: 20px;
+  font-weight: bold; /* Nome em negrito */
+  text-align: start; /* Centraliza o texto do nome */
+}

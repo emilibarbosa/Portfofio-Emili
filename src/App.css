@@ -1,0 +1,63 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8; 
+  color: #333; 
+  line-height: 1.6;
+}
+
+/* Seções */
+section {
+  padding: 40px 20px; 
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Tecnologias */
+.tecnologia-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.tecnologia-item {
+  background-color: #ffffff; 
+  border: 1px solid #dcdcdc; 
+  border-radius: 8px;
+  padding: 20px;
+  width: calc(33.333% - 40px); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tecnologia-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Contato */
+form {
+  display: flex;
+  flex-direction: wrap;
+}
+
+input, textarea {
+  margin-bottom: 15px;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #dcdcdc; 
+  border-radius: 4px;
+  box-sizing: border-box; 
+}
+
+input:focus, textarea:focus {
+  border-color: #2c3e50; 
+  outline: none; 
+}
+
+
+button:hover {
+  background-color: #34495e; 
+}
